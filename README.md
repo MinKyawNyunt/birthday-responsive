@@ -34,4 +34,4 @@ visit http://localhost:8081 in your browser.
 
 
 docker build --no-cache . -t birthday
-docker run -d -p 3000:8081 birthday
+docker run -d -p 8081:8081 birthday
